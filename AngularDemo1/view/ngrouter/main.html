@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../js/angular-1.5.8/angular.js"></script>
+    <script src="../../js/angular-1.5.8/angular-route.js"></script>
+    <script src="app.js"></script>
+    <script src="mainctrl.js"></script>
+    <script src="showInfoCtrl.js"> </script>
+    <script src="showNameCtrl.js"></script>
+</head>
+<body data-ng-app="app" data-ng-controller="mainController">
+    <ul>
+        <li><a href="#showName">姓名列表显示</a></li>
+        <li><a href="#showInfo">信息列表显示</a></li>
+    </ul>
+
+    <div  style="width:300px; height:300px; boarder:1px solid black" data-ng-view></div>
+
+</body>
+</html>

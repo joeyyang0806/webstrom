@@ -8,9 +8,30 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectId" id="1TWKQ3cshY5lEvHaUUUlfuziJaL" />
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\webstrom\AngularDemo1\view\d3" />
+      <recent name="D:\webstrom\AngularDemo1\view\d2" />
+      <recent name="D:\webstrom\AngularDemo1\view\d1" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\webstrom\AngularDemo1" />
+      <recent name="D:\webstrom\AngularDemo1\js" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -46,7 +67,7 @@
       <updated>1573570391757</updated>
       <workItem from="1573570392991" duration="69000" />
       <workItem from="1574005355315" duration="932000" />
-      <workItem from="1574518367954" duration="742000" />
+      <workItem from="1574518367954" duration="13096000" />
     </task>
     <servers />
   </component>

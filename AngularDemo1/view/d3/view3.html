@@ -1,0 +1,30 @@
+ 
+<html >
+  <head>
+    <script src="../../js/angular1.5.8/angular.min.js"></script>
+    <script src="invoice3.js"></script>
+    <script src="finance3.js"></script>
+  </head>
+  <body>
+  <div ng-app="invoice3" ng-controller="InvoiceController as invoice" class="ng-scope">
+  <b>Invoice:</b>
+  <div>
+    Quantity: <input type="number" min="0" ng-model="invoice.qty" required="" class="ng-pristine ng-valid ng-not-empty ng-valid-min ng-valid-required ng-touched">
+  </div>
+  <div>
+    Costs: <input type="number" min="0" ng-model="invoice.cost" required="" class="ng-pristine ng-untouched ng-valid ng-not-empty ng-valid-min ng-valid-required">
+    <select ng-model="invoice.inCurr" class="ng-pristine ng-untouched ng-valid ng-not-empty">
+      <option ng-repeat="c in invoice.currencies" class="ng-binding ng-scope" value="{{c}}"> {{c}}</option>
+    </select>
+  </div>
+  <div>
+    <b>Total:</b>
+    <span ng-repeat="c in invoice.currencies" class="ng-binding ng-scope">
+      {{c}}{{invoice.total(c)}}
+    </span><br>
+    <button class="btn" ng-click="invoice.pay()">Pay</button>
+  </div>
+</div>
+
+</body>
+</html>
